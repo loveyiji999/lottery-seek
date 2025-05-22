@@ -5,6 +5,8 @@ import re
 import pandas as pd
 import time
 from bs4 import BeautifulSoup
+from datetime import datetime
+
 
 BASE_URL = "http://www.pilio.idv.tw/ltobig/list.asp"
 HEADERS = {
